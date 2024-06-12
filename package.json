@@ -1,0 +1,22 @@
+{
+  "name": "at-quiz",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {"access": "public"},
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["quiz","inquirer","Ammara"],
+  "author": "Ammara",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2"
+  },
+  "type": "module"
+}

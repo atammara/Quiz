@@ -1,0 +1,102 @@
+[
+    {
+      "question": "What distinguishes TypeScript from JavaScript?",
+      "choices": [
+        "TypeScript is a markup language",
+        "TypeScript supports static typing",
+        "JavaScript is a superset of TypeScript",
+        "JavaScript has stricter syntax rules"
+      ],
+      "answer": "TypeScript supports static typing"
+    },
+    {
+      "question": "What is one benefit of using TypeScript?",
+      "choices": [
+        "Enhanced browser compatibility",
+        "Automatic code optimization",
+        "Improved code readability",
+        "Faster execution speed"
+      ],
+      "answer" : "Improved code readability"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in TypeScript?",
+      "choices": [
+        "let",
+        "var",
+        "const",
+        "define"
+      ],
+      "answer" : "let"
+    },
+    {
+      "question": "What does the term 'static typing' refer to in TypeScript?",
+      "choices": [
+        "Variables that can change type dynamically",
+        "Explicitly declaring variable types",
+        "Preventing type errors during compile time",
+        "Assigning types to functions"
+      ],
+      "answer" : "Explicitly declaring variable types"
+    },
+    {
+      "question": "Which extension is commonly used for TypeScript files?",
+      "choices":[
+        ".js",
+        ".ts",
+        ".html",
+        ".css"
+      ],
+      "answer" : ".ts"
+    },
+    {
+      "question": "What does TypeScript provide that JavaScript lacks?",
+      "choices":[ 
+        "Support for asynchronous programming",
+        "Built-in testing framework",
+        "Static type checking",
+        "Cross-browser compatibility"
+      ],
+      "answer" : "Static type checking"
+    },
+    {
+      "question": "Which of the following is a feature of TypeScript?",
+      "choices":[ 
+        "Prototype inheritance",
+        "Namespace pollution",
+        "Type inference",
+        "Inline styling"
+      ],
+      "answer" : "Type inference"
+    },
+    {
+      "question": "What is the recommended way to install TypeScript?",
+      "choices":[
+        "npm install -g typescript",
+        "npm install typescript",
+        "npm install --save-dev typescript",
+        "npm install --global typescript"
+      ],
+      "answer" : "npm install -g typescript"
+    },
+    {
+      "question": "Which statement best describes TypeScript?",
+      "choices": [
+        "A compiled language",
+        "A dynamically-typed language",
+        "A scripting language",
+        "A statically-typed language"
+      ],
+      "answer" : "A statically-typed language"
+    },
+    {
+      "question": "What is the primary goal of TypeScript?",
+      "choices":[ 
+        "To replace JavaScript",
+        "To provide a more secure language",
+        "To enhance JavaScript with additional features",
+        "To simplify web development"
+      ],
+      "answer" : "To enhance JavaScript with additional features"
+    }
+]
