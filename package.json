@@ -1,11 +1,14 @@
 {
   "name": "at-quiz",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "bin": "dist/main.js",
   "publishConfig": {"access": "public"},
-  "bin": "main.js",
   "scripts": {
+    "build": "tsc",
+    "postbuild": "node add-shebang.js",
+    "start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["quiz","inquirer","Ammara"],
@@ -18,5 +21,9 @@
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.14.2"
   },
-  "type": "module"
+  "type": "module",
+  "files": [
+    "dist/",
+    "data.json"
+  ]
 }
